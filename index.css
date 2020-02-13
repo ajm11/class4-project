@@ -1,0 +1,76 @@
+.topnav a {
+    width: 100%;
+    color: black;
+    background-color: azure;
+    font: 15px arial, sans-serif;
+    font-style: italic;
+    padding: 10px;
+}
+
+.list-style {
+    list-style-type: square;
+    color: black;
+    font: 12px arial, sans-serif;
+}
+
+.list-item-style {
+    margin: 5px;
+}
+
+.footer {
+    color: black;
+    background-color: beige;
+    padding: 5px;
+    font: 10px arial, sans-serif;
+}
+
+h1 {
+    color: blue;
+    font: 30px arial, sans-serif;
+}
+
+h6 {
+    color: blue;
+    font: 15px arial, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: black;
+    padding: 5px;
+    font: 12px arial, sans-serif, bold;
+}
+
+form {
+    color: black;
+    padding: 5px;
+    font: 12px arial, sans-serif, bold;
+}
+
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: azure;
+    border-color: black;
+    font: 10px arial, sans-serif;
+    color: black;
+    padding: 2px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    grid-gap: 1.5em;
+  }
+  
+  .grid__item {
+    width: 100%;
+    height: 100%;
+    background: #E5F5FF;
+    box-shadow: 0 18px 30px 2px rgba(0,0,0,0.10);
+    border-radius: 15px;
+  }
